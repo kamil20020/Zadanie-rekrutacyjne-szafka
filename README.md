@@ -1,4 +1,4 @@
-# Zadanie-rekrutacyjne-szafka
+# Zadanie rekrutacyjne - szafka z plikami
 
 ## Cel
 Zadanie rekrutacyjne polega na analizie otrzymanego kodu i zaimplementowanie brakujących elementów. Otrzymany kod jest napisany w języku `Java` i również w tym języku należy zaimplementować brakujący kod.
