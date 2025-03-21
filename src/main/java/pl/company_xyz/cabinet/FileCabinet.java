@@ -3,6 +3,7 @@ package pl.company_xyz.cabinet;
 import pl.company_xyz.folder.Folder;
 import pl.company_xyz.folder.multi_folder.MultiFolder;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -10,11 +11,16 @@ import java.util.stream.Stream;
 
 public class FileCabinet implements Cabinet {
 
-    private List<Folder> folders;
+    private List<Folder> folders = new ArrayList<>();
 
     public FileCabinet(List<Folder> folders){
 
         this.folders = folders;
+    }
+
+    public FileCabinet(){
+
+
     }
 
     @Override
@@ -38,6 +44,10 @@ public class FileCabinet implements Cabinet {
 
         return (int) getFoldersFlatMapStream()
             .count();
+    }
+
+    public void clear(){
+        folders.clear();
     }
 
     private Stream<Folder> getFoldersFlatMapStream(){
