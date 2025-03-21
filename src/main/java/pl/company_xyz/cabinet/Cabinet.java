@@ -1,4 +1,6 @@
-package pl.company_xyz;
+package pl.company_xyz.cabinet;
+
+import pl.company_xyz.folder.Folder;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package pl.company_xyz;
+package pl.company_xyz.folder;
 
 public interface Folder {
 
